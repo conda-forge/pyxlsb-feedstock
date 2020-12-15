@@ -1,5 +1,5 @@
 {% set name = "pyxlsb" %}
-{% set version = "1.0.6" %}
+{% set version = "1.0.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyxlsb-{{ version }}.tar.gz
-  sha256: 47e8230582de15ad9824a456d1d4cb36a6535f4ad5e5eb2464d31f0445b9db46
+  sha256: fa733ebd7ab358c500534af812fbcbfab162e82d249d327d20653731632255bc
 
 build:
   number: 0
